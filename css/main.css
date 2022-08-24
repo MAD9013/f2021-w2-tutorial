@@ -1,22 +1,17 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 html {
-  box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
 body {
   margin: 0;
 }
-
 
 h3 {
   color: #0e9003;
@@ -40,7 +35,7 @@ a:hover {
 }
 
 .masthead a:hover {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .logo {
@@ -65,7 +60,7 @@ nav li {
 
 .banner {
   padding: 5rem 1rem;
-  background-color: rgba(14, 129, 3, .25);
+  background-color: rgba(14, 129, 3, 0.25);
 }
 
 .banner .title {
@@ -78,7 +73,7 @@ nav li {
   background-color: #0e9003;
   padding: 1rem;
   text-decoration: none;
-  display: inline-block;;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -111,7 +106,7 @@ section {
 
 .about-author {
   padding: 5rem 1rem;
-  background-color: rgba(14, 129, 3, .25);
+  background-color: rgba(14, 129, 3, 0.25);
 }
 
 .about-author h2 {
@@ -128,7 +123,7 @@ section {
 }
 
 .footer a:hover {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer .logo {
@@ -144,7 +139,6 @@ section {
 .sub-footer {
   background-color: #111;
 }
-
 
 /* - - - - - - - - - - Post Page - - - - - - - - - - */
 
@@ -165,5 +159,5 @@ section {
 }
 
 .author-info {
-  background-color: rgba(14, 129, 3, .25);
+  background-color: rgba(14, 129, 3, 0.25);
 }
